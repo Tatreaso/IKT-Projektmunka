@@ -1,121 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hálótervezés(CPM)</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="mehwart_f1dce688ee (1).png"
+      type="image/x-icon"
+    />
+    <title>Kezdőlap</title>
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #DCDCDC;
-        
-        }
-        .navbar {
-            background-color: #8B0000;
-            overflow: hidden;
-            display: flex;
-            padding: 10px 15px;
-            height: 70px;
-        }
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            padding:20px 20px;
-            display: block;
-        }
-        .navbar a:hover {
-            background-color: #575757;
-            border-radius: 10px;
-        }
-        img {
-            float: right;
-        }
-        h1 {
-            text-align: center;
-            margin-top: 100px;
-            font-size: 40px;
-        }
-        p {
-
-            margin-top: 20px;
-            font-size: 20px;
-            margin-left: 10px;
-            margin-right: 50px;
-        }
-        .doboz {
-            width: 800px;
-            background-color:	 #ff6666;
-            border-radius: 15px ;
-            border: 3px solid black;
-            margin: auto;
-            font-size: 20px;
-            font-family: 'Times New Roman', Times, serif;
-        }
-        a{
-            text-decoration: none;
-            color: black;
-        }
-        ul{
-            margin-left: 20px;
-        }
-        .projekt{
-            margin-left: 40px;
-        }
-        .main {
-             
-            padding: 20px; 
-            box-sizing: border-box;
-            overflow: auto; 
-        }
-        h1{
-            text-align: center;
-        }
-        .cpm{
-            margin-top: 20px;
-        }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #dcdcdc;
+      }
+      .navbar {
+        background-color: #8b0000;
+        overflow: hidden;
+        display: flex;
+        padding: 10px 15px;
+        height: 70px;
+      }
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 20px;
+        display: block;
+      }
+      .navbar a:hover {
+        background-color: #575757;
+        border-radius: 10px;
+      }
+      img {
+        float: right;
+      }
+      h1 {
+        text-align: center;
+        font-size: 40px;
+      }
+      p {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 50px;
+      }
+      .doboz {
+        width: 800px;
+        background-color: #ff6666;
+        border-radius: 15px;
+        border: 3px solid black;
+        margin: auto;
+        font-size: 20px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 20px;
+        display: block;
+      }
+      ul {
+        margin-left: 20px;
+      }
+      .projekt {
+        margin-left: 40px;
+      }
+      .main {
+        padding: 20px;
+        box-sizing: border-box;
+        overflow: auto;
+      }
+      h1 {
+        text-align: center;
+      }
+      .cpm {
+        margin-top: 20px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="navbar">
-        <img src="mehwart_f1dce688ee (1).png">
-        <a href="index.html">Kezdőlap</a>
-        <a href="bemutatkozas.html">Bemutatkozás</a>
-        <a href="forrasok.html">Források</a>
-        <a href="cpm.html">CPM</a>
-        <a href="mpm.html">MPM</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+      <img src="mehwart_f1dce688ee (1).png" />
+      <a href="index.html" style="margin-left: 10px">Kezdőlap</a>
+      <a href="bemutatkozas.html" style="margin-left: 10px">Bemutatkozás</a>
+      <a href="cpm.html" style="margin-left: 10px">CPM</a>
+      <a href="mpm.html" style="margin-left: 10px">MPM</a>
+      <a href="kockazat.html" style="margin-left: 10px">Kockázatelemzés</a>
+      <a href="koltsegek.html" style="margin-left: 10px">Költségek becslése</a>
+      <a href="projektegy.html" style="margin-left: 10px"
+        >Projektegyensúly kialakítása</a
+      >
+      <a href="forrasok.html" style="margin-left: 10px">Források</a>
     </div>
-<br><br><br>
-<div class="doboz">
-    <div class="main">
-        
-        <h1 class="cpm">Hálótervezés(CPM)</h1>
-
-        <h2>CPM (Critical Path Method)</h2>
-        <p>A Critical Path Method (CPM) egy projektütemezési módszer, amely az egymásra épülő feladatok közül a leghosszabb időtartamú útvonalat azonosítja.</p>
-
-        <h2>Kritikus út</h2>
-        <p>Mindig létezik egy olyan út, ami csak azokon a pontokon halad át, ahol a tartalék idő nulla, és az út hossza megegyezik a teljes folyamat hosszával.</p>
-
-        <h2>Hálótervezés előnyei</h2>
-        <p>Segíti a bonyolult folyamatok irányítását, szervezését, ellenőrzését.</p>
-
-        <h2>CPM-háló elemei</h2>
-        <ul>
-            <li><b>Tevékenység</b>: Részfeladat, időtartammal és erőforrásigénnyel.</li>
-            <li><b>Esemény:</b> Kezdő vagy befejező pont, időpontot jelöl, nincs erőforrásigénye.</li>
-            <li><b>Látszattevékenység:</b> Csak logikai kapcsolatot jelöl, idő és erőforrás nélkül.</li>
-        </ul>
-
-        <h2>Szerkesztési szabályok</h2>
-        <ul>
-            <li>Két eseményt csak egy tevékenység köthet össze.</li>
-            <li>Háló hurokmentes, növekvő számozású, időben összefüggő legyen.</li>
-            <li>Egy kezdő- és egy végpont lehet.</li>
-</p>
-</div>
-</body>
+    <br />
+    <div class="doboz">
+      <div class="main">
+        <h1>Üdvözöljük a weboldalunkon!</h1>
+        <p>
+          Ez az oldal a Mechwart András Gépipari és Informatikai Technikum<br />IKT
+          Projektmunka órájára készült. <br />Készítette:
+          <a href="bemutatkozas.html"
+            >Belényesi István, Rácz Bence, Sultesz Roland.</a
+          >
+          (10.B)
+        </p>
+      </div>
+    </div>
+  </body>
 </html>

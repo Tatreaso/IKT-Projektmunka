@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Források</title>
+    <title>Hálótervezés(CPM)</title>
     <style>
         body {
             margin: 0;
@@ -62,6 +62,18 @@
         .projekt{
             margin-left: 40px;
         }
+        .main {
+             
+            padding: 20px; 
+            box-sizing: border-box;
+            overflow: auto; 
+        }
+        h1{
+            text-align: center;
+        }
+        .cpm{
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -76,18 +88,33 @@
         <a href="#services">Services</a>
         <a href="#contact">Contact</a>
     </div>
-
-<h1>Források</h1>
+<br><br><br>
 <div class="doboz">
-<p class="projekt"><b>A projektmunkához felhasznált források:</b>
-    <ul>
-    <li><a href="https://www.itstudy.hu/sites/default/files/projektmenedzsment-es-ms-project-2003-2007-letoltheto-konyv.pdf" target="_blank">https://www.itstudy.hu/sites/default/files/projektmenedzsment-es-ms-project-2003-2007-letoltheto-konyv.pdf</a></li><br>
-    <li><a href="https://pea.lib.pte.hu/bitstream/handle/pea/23663/jarjabka-akos-projektmenedzsment-ismeretek-pte-ktk-pecs-2020.pdf" target="_blank">https://pea.lib.pte.hu/bitstream/handle/pea/23663/jarjabka-akos-projektmenedzsment-ismeretek-pte-ktk-pecs-2020.pdf</a></li><br>
-    <li><a href="https://slideplayer.hu/slide/2933267/" target="_blank">https://slideplayer.hu/slide/2933267/</a></li>
-    <li><p>Házi feladat: CPM</p></li>
-    <li><p>Házi feladat: MPM</p></li>
-    <li><p>Münnich Ákos Tanárúr PPT-je MPM és CPM témakörben</p></li>
-    </ul>
+    <div class="main">
+        
+        <h1 class="cpm">Hálótervezés(CPM)</h1>
+
+        <h2>CPM (Critical Path Method)</h2>
+        <p>A Critical Path Method (CPM) egy projektütemezési módszer, amely az egymásra épülő feladatok közül a leghosszabb időtartamú útvonalat azonosítja.</p>
+
+        <h2>Kritikus út</h2>
+        <p>Mindig létezik egy olyan út, ami csak azokon a pontokon halad át, ahol a tartalék idő nulla, és az út hossza megegyezik a teljes folyamat hosszával.</p>
+
+        <h2>Hálótervezés előnyei</h2>
+        <p>Segíti a bonyolult folyamatok irányítását, szervezését, ellenőrzését.</p>
+
+        <h2>CPM-háló elemei</h2>
+        <ul>
+            <li><b>Tevékenység</b>: Részfeladat, időtartammal és erőforrásigénnyel.</li>
+            <li><b>Esemény:</b> Kezdő vagy befejező pont, időpontot jelöl, nincs erőforrásigénye.</li>
+            <li><b>Látszattevékenység:</b> Csak logikai kapcsolatot jelöl, idő és erőforrás nélkül.</li>
+        </ul>
+
+        <h2>Szerkesztési szabályok</h2>
+        <ul>
+            <li>Két eseményt csak egy tevékenység köthet össze.</li>
+            <li>Háló hurokmentes, növekvő számozású, időben összefüggő legyen.</li>
+            <li>Egy kezdő- és egy végpont lehet.</li>
 </p>
 </div>
 </body>

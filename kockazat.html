@@ -77,6 +77,15 @@
       .cpm {
         margin-top: 20px;
       }
+      table{
+        border: 1px solid black;
+      }
+      table td{
+        border: 1px solid black;
+      }
+      table th{
+        border: 1px solid black;
+      }
     </style>
   </head>
   <body>
@@ -96,6 +105,78 @@
     <br />
     <div class="doboz">
       <div class="main">
+        <h1>A kockázatelemzés tevékenységcsoportjai</h1>
+        <ol>
+          <li>A kockázati források (változók) feltárása és csoportosítása (határidőt, költségeket, műszaki és teljesítményparamétereket érintő kockázatok).</li>
+          <br><li>A kockázati változók hatásának elemzése során a közvetlen cél, hogy számszerűsítsük a vizsgálatba bevont különböző kockázati tényezők hatását. Az
+            elemzés eredményei grafikusan ábrázolhatók, ami megkönnyíti az értelmezést és a további felhasználást. A projektvezető a lehetséges kockázatokról
+            listát kap, ez után mérlegeli, hogy mely kockázattal érdemes foglalkozni.
+            Amelyiknek kicsi a valószínűsége, annak valószínűleg kicsi a hatása is, így
+            azokat kihúzhatja a listáról. Vannak olyan kockázatok, amelyek a projekt
+            környezetétől függnek, ezeknek a valószínűségét tapasztalat vagy megérzés
+            alapján határozzák meg.</li><br>
+            <li><b>Kockázatelemzés</b><ul>
+              <br><li><b>Érzékenységi vizsgálat</b><ul>
+                <li>az egyes kockázati változók legvalószínűbb értékváltozásainak a meghatározása (független változók halmaza)</li>
+                <li>a változók különböző értékei mellett számítások segítségével a függő változók halmazainak a kialakítása</li>
+                <li>a számítási eredmények grafikus ábrázolása</li>
+              </ul></li>
+              <br><li><b>Valószínűségi elemzés</b><ul>
+                <li>A valószínűségi elemzés az egyes kockázati tényezők valószínűségi eloszlásának felhasználásával veszi tekintetbe a kockázati források együttes hatását az
+                  elemzés szempontja szerinti függő változóra (kiküszöböli az érzékenységi vizsgálat hátrányait).</li>
+                <li>valószínűség x hatás = várható érték</li>
+                <li>A projekt során elkészítenek egy valószínűséghatás mátrixot, mely a pozitív és
+                  a negatív hatásoknak a bekövetkezését is mérlegelve mutatja meg a kockázatok
+                  hatásait</li>
+                  <li>Nézzünk egy ilyen mátrixra egy példát!</li>
+                  <li style="list-style-type: none;">
+                    <br>
+                    <table>
+                      <tr>
+                        <th>Valószínűség</th>
+                        <th colspan="3" style="text-align: center;">Fenyegetettségek</th>
+                      </tr>
+                      <tr>
+                        <td>>=70%</td>
+                        <td>közepes</td>
+                        <td>magas</td>
+                        <td>magas</td>
+                      </tr>
+                      <tr>
+                        <td><70%</td>
+                        <td>elhanyagolható</td>
+                        <td>közepes</td>
+                        <td>magas</td>
+                      </tr>
+                      <tr>
+                        <td><30%</td>
+                        <td>elhanyagolható</td>
+                        <td>elhanyagolható</td>
+                        <td>közepes</td>
+                      </tr>
+                      <tr>
+                        <th>Költséghatás</th>
+                        <td><10%</td>
+                        <td><20%</td>
+                        <td>>=20%</td>
+                      </tr>
+                    </table><br>
+                  </li>
+              </ul></li>
+            </ul></li>
+            <li><b>Kockázati válaszstratégiánk</b><ol>
+              <br><li>Kockázat elfogadása, ha a kockázatot elfogadjuk, akkor tisztában vagyunk
+                a hatásaival, tehát úgy döntünk, hogy nem teszünk ellene semmit.</li>
+              <li>Kockázat elkerülése, pl. kihagyjuk a projekt kérdéses részét.</li>
+              <li>Kockázat szabályozása, kockázati jellemző(k) kiválasztása, azért hogy felhívja a figyelmet, ha az adott kockázathoz érünk.</li>
+              <li>Kockázatok átruházása pl. biztosításkötés, szakértő alkalmazása, különböző szerződések kötése</li>
+              <li>Kockázatok csökkentése, megegyezik az átruházáshoz. </li><br>
+            </ol></li>
+            <li><b>Kockázatkezelés két megvalósított célja:</b><ul>
+              <li>lehetővé teszi a projekt hatékonyabb megvalósítását</li>
+              <li>jelentősen hozzájárul a projektváltozatok reális gazdasági-pénzügyi értékeléséhez</li>
+            </ul></li>
+          </ol>
       </div>
     </div>
   </body>
